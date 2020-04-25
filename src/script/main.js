@@ -23,7 +23,7 @@ const main = () => {
                                 <p>Web Developper, Programer & enterperneur</p>
                                 <p>Study Informatic Engginering at <a class="judul" target="blank" href="https://unhas.ac.id/">Hasanuddin University</a></p>
                                 <figure>
-                                <img id="fotoku" src="../aset/foto.jpg" width="100%" height="100%"/>
+                                <div id="fotoku"  width="100%" height="100%"></div>
                                 <figcaption class="judul">Huddin</figcaption>
                                 </figure>
                                 <div id="dataku"></div>
