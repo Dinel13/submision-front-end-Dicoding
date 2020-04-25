@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../aset/back.jpg");
+  background-size: fit;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 16px;
+}
+.full-width {
+  width: 100%;
+}
+
+main {
+  color: rgb(255, 255, 255);
+  min-height: 800px;
+}
+
+#fotoku {
+  border-radius: 50%;
+  background-image: url("../aset/foto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+}
+
+#update {
+  margin-top: 44px;
+  text-align: center;
+}
+
+table{
+  margin: 0 auto;
+}
+
+#tgl, h4 {
+  color: rgb(197, 183, 183);
+
+}
+
+ tr, td{
+  padding: 0 33px;
+  margin: 0 8px;
+  text-align: center;
+  color: rgb(197, 183, 183);
+}
+
+#kasus,
+#sehat,
+#mati {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 40px;
+  padding-top: 60px;
+  text-align: center;
+  color: #fff !important;
+}
+
+.card{
+  background-color: rgba(197, 183, 183, 0);
+}
+
+#card{
+  background-color: rgba(100, 80, 80, 0.616);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: auto !important;
+  padding: auto !important;
+
+}
+
+#card  tr, td {
+  padding: 0 14px 0 0;
+  font-size: normal;
+}
+
+#card h1, p {
+  text-align: center;
+}
+
+#sini{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-lg-4{
+  display: flex;
+}
+
+
+
+footer {
+  float: bottom;
+  text-align: center;
+  padding: 8px;
+  padding-bottom: 5px;
+  color: white;
+  background-color: rgb(4, 121, 39);
+
+  opacity: 0.7;
+}
+
+.social-network a {
+  transition: 0.3s;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.social-network a:hover {
+  text-decoration: none;
+  color: #1a6fee;
+}
+
+@media screen and (max-width: 516px) {
+  #update table ,tr, td {
+    padding: 0 14px;
+    margin: 40px auto;
+    text-align: center;
+    color: rgb(197, 183, 183);
+  }
+
+  #kasus,
+  #sehat,
+  #mati {
+    margin: 40px 8px;
+    padding: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(4, 121, 39);
+    font-size: 0.8em;
+  
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width : 300px){
+  #kasus,
+  #sehat,
+  #mati,
+  tr,
+  td{
+    padding: 4px;
+    margin: 4px;
+    font-size: 1em;
+  }
+}
