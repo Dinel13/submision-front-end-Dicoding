@@ -43,7 +43,7 @@ class showProv extends HTMLElement {
        </style>
       
        <div id="tampil">
-       <button id="semuaprov">Tampilakan Semua Provinisi</button>
+       <button id="semuaprov">Tampilkan Semua Provinisi</button>
        </div>
         `;
 
