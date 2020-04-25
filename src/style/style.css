@@ -29,6 +29,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   width: 250px;
+  height: 250px;
 }
 
 #update {
