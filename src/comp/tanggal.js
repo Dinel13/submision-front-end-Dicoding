@@ -6,7 +6,7 @@ const tanggal = () => {
   const bln = date.getMonth();
   const thun = date.getFullYear();
 
-  tgal.innerHTML += ` ${tgl} - ${bln} - ${thun}`;
+  tgal.innerHTML += ` ${tgl} - ${(bln+1)} - ${thun}`;
 };
 
 export default tanggal;
