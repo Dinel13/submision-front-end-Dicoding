@@ -73,7 +73,7 @@ class AppBar extends HTMLElement {
          </style>
              <h2><a href="#" id="home">Corona Info</a></h2>
             <nav>
-                <li><a href="#" id="prov">Povinsi </a></li>
+                <li><a href="#" id="prov">Provinsi </a></li>
                 <li><a href="#" id="me">About me</a> </li>
             </nav>
             `;
